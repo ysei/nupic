@@ -1289,9 +1289,9 @@ Page 39
 強化したくないため。
 
 フィード・フォワードによってアクティブになったセルだけを処理するのはリージョン
-の 内部だけ　であって、それ以外では予測はさらなる予測を引き起こすことに注意。
+の 内部だけであって、それ以外では予測はさらなる予測を引き起こすことに注意。
 しかし（フィード・フォワードと予測の）すべてのアクティブなセルは
-リージョンの出力となり、階層構造の 次の　リージョンへと引き継がれる。
+リージョンの出力となり、階層構造の次のリージョンへと引き継がれる。
 
 一次と可変長42のシーケンスと予測
 
@@ -1638,7 +1638,7 @@ Page 48
 先ずは時間プーリングの推論だけのバージョン ry 次に推論と学習を含む ry
 。補助関数は疑似コードの後に、本章の最後に示す。
 
-時間プーリング疑似コード：　推論だけのバージョン
+時間プーリング疑似コード： 推論だけのバージョン
 
 フェーズ 1
 ry 各セルのアクティブ状態を計算する。勝者となった各カラムについて、
@@ -1680,7 +1680,7 @@ ry 各セルの予測状態を計算する。
 16. 		if segmentActive(c, i, s, t) then
 17. 			predictiveState(c, i, t) = 1 
 
-時間プーリング疑似コード：　推論と学習を含むバージョン
+時間プーリング疑似コード： 推論と学習を含むバージョン
 
 フェーズ 1
 ry 勝者となったカラム中の各セルの activeState を計算する。
@@ -1850,7 +1850,7 @@ learnState(c, i, t)
 カラムc セルi が学習対象のセルとして選択されたことを表す論理値
 activationThreshold
 あるセグメントをアクティブにするしきい値。
-あるセグメント　に　接　続　さ　れ　た　ア　ク　テ　ィ　ブ　な　シ　ナ　プ　ス　の　数　が
+あるセグメントに接続されたアクティブなシナプスの数が
 activationThreshold より大きければ、セグメントはアクティブになる。
 learningRadius
 横方向の接続を持つ、時間プーリングセルの周囲の領域の範囲
@@ -1907,15 +1907,15 @@ getSegmentActiveSynapses(c, i, t, s,newSynapses=false)
 activeSynapses を、接続元のセルの時刻t における activeState 出力=1 であるような
 アクティブなシナプスのリストとする（s=-1のときはセグメントが存在しないため、
 このリストは 空である）。newSynapsesはオプション引数でデフォルト値は false である。
-newSynapses が　真　の　時　は　、 newSynapseCount -count(activeSynapses) 個
+newSynapses が真の時は、 newSynapseCount -count(activeSynapses) 個
 のシナプスが activeSynapses に追加される。これらのシナプスは、
 時刻t において learnState出力=1 であるセルの中からランダムに選択される。
 adaptSegments(segmentList,positiveReinforcement)
 この関数は segmentUpdate のリスト要素について繰り返し、各セグメントを強化をする。
 segmentUpdate の各要素について、以下の変更が実行される。
 positiveReinforcement が真のとき、アクティブなリスト上のシナプスの永続値は
-permanenceInc だけ増加させる。他のすべてのシナプスは永続　値　を
-permanenceDec だ　け　減　少　さ　せ　る　。
+permanenceInc だけ増加させる。他のすべてのシナプスは永続値を
+permanenceDec だけ減少させる。
 positiveReinforcement が偽のとき、アクティブなリスト上のシナプスは
 永続値を permanenceDec だけ減少させる。
 これらの処理の後、segmentUpdate の中にまだ存在しないシナプスについて、
