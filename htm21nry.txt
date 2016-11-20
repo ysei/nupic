@@ -1594,23 +1594,23 @@ minDutyCycle(c)
 $B$"$k%;%k$NH/2PIQEY$,$3$NCM$r2<2s$l$P!"$=$l$O%V!<%9%H$5$l$k!#(B
 $B$3$NCM$O$=$NIU6a$N%+%i%`$N:GBg$NH/2PIQEY$N(B1%$B$H$7$F7W;;$9$k!#(B
 $B0J2<$NJd=u4X?t$,5?;w%3!<%I$G;HMQ$5$l$F$$$k!#(B
-kthScore(cols, k) 
+kthScore(cols, k)
 $BM?$($i$l$?%+%i%`$N%j%9%H$KBP$7$F!"(Bk$BHVL\$N%*!<%P%i%C%WCM$rJV$9(B
-updateActiveDutyCycle(c) 
+updateActiveDutyCycle(c)
 $BM^@)$N8e$K%+%i%`(Bc $B$,%"%/%F%#%V$K$J$C$?IQEY$N0\F0J?6Q$r7W;;$9$k(B
-updateOverlapDutyCycle(c) 
+updateOverlapDutyCycle(c)
 $B%+%i%`(Bc $B$N%*!<%P%i%C%WCM$,(BminOverlap $B$h$jBg$-$/$J$C$?IQEY$N0\F0J?6Q$r7W;;$9$k(B
 averageReceptiveFieldSize()
 $B%+%i%`$K@\B3$5$l$?<uMFLn$NH>7B$K$D$$$F$N!"$9$Y$F$N%+%i%`$NJ?6QCM!#(B
 $B%+%i%`$K@\B3$5$l$?<uMFLn$O@\B3$5$l$?%7%J%W%9!J1JB3CM!f(BconnectedPerm$B$N$b$N!K(B
 $B$@$1$,4^$^$l$k!#$3$l$O%+%i%`4V$N2#J}8~$NM^@)HO0O$r7h$a$k$?$a$KMQ$$$i$l$k!#(B
 maxDutyCycle(cols) $BM?$($i$l$?%+%i%`$N%j%9%H$N$&$A!"(BactiveDutyCycle $B$,:GBg$N$b$N$rJV$9(B
-increasePermanences(c, s) 
+increasePermanences(c, s)
 $B%+%i%`(Bc $B$N$9$Y$F$N%7%J%W%9$N1JB3CM$r%9%1!<%k0x;R(Bs $B$K=>$C$FA}2C$5$;$k(B
-boostFunction(c) 
+boostFunction(c)
 $B%+%i%`(Bc $B$N%V!<%9%HCM$rJV$9!#%V!<%9%HCM$O(B1$B0J>e$N%9%+%iCM$G$"$k!#(B
 activeDutyCycle(c) $B$,(B minDutyCycle(c) $B$h$jBg$-$1$l$P%V!<%9%HCM$O(B1$B!#(B
-activeDutyCycle $B$,(B minDutyCycle $B$h$j2<2s$j;O$a$F0J9_$O!"%V!<%9%HCM$O%j%K%"$KA}2C$9$k!#(B 
+activeDutyCycle $B$,(B minDutyCycle $B$h$j2<2s$j;O$a$F0J9_$O!"%V!<%9%HCM$O%j%K%"$KA}2C$9$k!#(B
 
 
 
@@ -1828,7 +1828,7 @@ Page 54
 $B0J2<$N%G!<%?9=B$$,;~4V%W!<%j%s%05?;w%3!<%I$G(B ry
 
 cell(c,i)
-$B$9$Y$F$N%;%k$N%j%9%H!#(Bi$B$H(Bc$B$G;X$7<($5$l$k!#(B 
+$B$9$Y$F$N%;%k$N%j%9%H!#(Bi$B$H(Bc$B$G;X$7<($5$l$k!#(B
 cellsPerColumn
 $B3F%+%i%`$N%;%k$N?t(B
 activeColumns(t)
@@ -1859,10 +1859,10 @@ connectedPerm
 minThreshold
 $B3X=,$N:]$N!"%"%/%F%#%V$J%;%0%a%s%H$N:G>.?t(B
 newSynapseCount $B3X=,$N$H$-$K%;%0%a%s%H$KDI2C$5$l$k%7%J%W%9$N:GBg?t(B
-permanenceInc 
+permanenceInc
 $B%"%/%F%#%S%F%#$K$h$k3X=,$,H/@8$7$?$H$-!"%7%J%W%9$N1JB3CM$rA}2C$5$;$kNL(B
 permanenceDec
-$B8:>/$5$;$kNL(B 
+$B8:>/$5$;$kNL(B
 
 
 
@@ -1877,22 +1877,22 @@ segmentUpdateList
 segmentUpdate $B9=B$BN$N%j%9%H!#(BsegmentUpdateList(c,i) $B$O%+%i%`(Bc $B%;%k(Bi $B$N(B
 $BJQ99FbMF$N%j%9%H$G$"$k!#(B
 $B0J2<$NJd=u4X?t$,>e5-$N%3!<%I$G;HMQ$5$l$F$$$k!#(B
-segmentActive(s, t, state) 
+segmentActive(s, t, state)
 $B%;%0%a%s%H(Bs $B;~9o(Bt $B$K$*$$$F!"(Bstate $B$GM?$($i$l$?>uBV$K$h$C$F%"%/%F%#%V$K$J$C$?@\B3>uBV(B
 $B$N%7%J%W%9$N?t$,(BactivationThreshold $B$h$jBg$-$$;~!"??$rJV$9!#(B
 state $B%Q%i%a!<%?$O(B activeState $BKt$O(B learnState $B$G$"$k!#(B
-getActiveSegment(c, i, t, state) 
+getActiveSegment(c, i, t, state)
 $BM?$($i$l$?%+%i%`(Bc $B%;%k(Bi $B$K$D$$$F!"(BsegmentActive(s,t, state)$B$,??$K$J$k%;%0%a%s%H$NE:;z$rJV$9!#(B
 $B$b$7J#?t$N%;%0%a%s%H$,%"%/%F%#%V$G$"$l$P!"=g=x%;%0%a%s%H$,$"$l$P$=$l$,M%@h$9$k!#(B
 $B$=$&$G$J$1$l$P$b$C$H$b%"%/%F%#%S%F%#$,9b$$$b$N$,M%@h$9$k!#(B
-getBestMatchingSegment(c, i, t) 
+getBestMatchingSegment(c, i, t)
 $BM?$($i$l$?%+%i%`(Bc $B%;%k(Bi $B$K$D$$$F!"%"%/%F%#%V$J%7%J%W%9$,:G$bB?$$%;%0%a%s%H$rC5$9!#(B
 $B$3$N4X?t$O@Q6KE*$K%Y%9%H%^%C%A$r8+$D$1$k!#(B
 $B%7%J%W%9$N1JB3CM$O(B connectedPerm $B$h$j>.$5$/$F$b5v$5$l$k!#(B
 $B%"%/%F%#%V$J%7%J%W%9$N?t$O(BactivationThreshold $B$h$j>.$5$/$F$b5v$5$l$k!#(B
 $B$?$@$7!"(BminThreshold $B$h$jBg$-$/$J$1$l$P$J$i$J$$!#(B
 $B$3$N4X?t$O%;%0%a%s%H$NE:;z$rJV$9!#$b$7%;%0%a%s%H$,8+$D$+$i$J$+$C$?$i(B-1 $B$rJV$9!#(B
-getBestMatchingCell(c) 
+getBestMatchingCell(c)
 $BM?$($i$l$?%+%i%`$K$D$$$F!"%Y%9%H%^%C%A%;%0%a%s%H!J>e5-;2>H!K$r;}$D%;%k$rJV$9!#(B
 $B$b$7$I$N%;%k$K$b%^%C%A$9$k%;%0%a%s%H$,$J$1$l$P!":G$b%;%0%a%s%H$N?t$,>/$J$$%;%k$rJV$9!#(B
 
@@ -1900,7 +1900,7 @@ getBestMatchingCell(c)
 
 Page 56
 
-getSegmentActiveSynapses(c, i, t, s,newSynapses=false) 
+getSegmentActiveSynapses(c, i, t, s,newSynapses=false)
 $B%;%0%a%s%H(Bs $B$KBP$7$FDs<($5$l$?JQ99$N%j%9%H$rJ];}$9$k(BsegmentUpdate $B9=B$BN$rJV$9!#(B
 activeSynapses $B$r!"@\B385$N%;%k$N;~9o(Bt $B$K$*$1$k(B activeState $B=PNO(B=1 $B$G$"$k$h$&$J(B
 $B%"%/%F%#%V$J%7%J%W%9$N%j%9%H$H$9$k!J(Bs=-1$B$N$H$-$O%;%0%a%s%H$,B8:_$7$J$$$?$a!"(B
@@ -1917,7 +1917,7 @@ permanenceDec $B$@$18:>/$5$;$k!#(B
 positiveReinforcement $B$,56$N$H$-!"%"%/%F%#%V$J%j%9%H>e$N%7%J%W%9$O(B
 $B1JB3CM$r(B permanenceDec $B$@$18:>/$5$;$k!#(B
 $B$3$l$i$N=hM}$N8e!"(BsegmentUpdate $B$NCf$K$^$@B8:_$7$J$$%7%J%W%9$K$D$$$F!"(B
-$B1JB3CM(B initialPerm $B$K$FDI2C$9$k!#(B 
+$B1JB3CM(B initialPerm $B$K$FDI2C$9$k!#(B
 
 
 
@@ -2212,14 +2212,14 @@ ry $B!#%K%e!<%m%5%$%(%s%9$NJ,Ln$O$?$$$X$sKDBg$G!"(B
 $B$3$NIUO?$G=R$Y$?OCBj$K4X$7$F$h$j@lLgE*CN<1$rF@$?$$FI<T$N$?$a(B ry 2 $B:}<($9!#(B
 
 Stuart, Greg, Spruston, Nelson, Hausser, Michael, Dendrites, second edition
-(New York: Oxford University Press, 2008) 
+(New York: Oxford University Press, 2008)
 
 $B$3$NK\$O<y>uFM5/$K4X$9$k$"$i$f$k(B ry
 16 $B>O$G$O(B HTM $BBgG>Hi<A@-3X=,%"%k%4%j%:%`$,MQ$$$F$$$k<y>uFM5/%;%0%a%s%H$N(B
 $BHs@~7A$J@-<A(B ry $B$3$N>O$O!"$3$NJ,Ln$G?tB?$/$N9M;!$r$7$?(B Bartlett Mel $B$K$h$C$F=q(B ry
 
 Mountcastle, Vernon B. Perceptual Neuroscience: The Cerebral Cortex
-(Cambridge, Mass.: Harvard University Press, 1998) 
+(Cambridge, Mass.: Harvard University Press, 1998)
 
 $B$3$NK\$O?7Hi<A$K4X$9$k$"$i$f$k$3$H$K4X$9$kNI$$F~Lg(B ry $B:YK&$N<oN`$H$=$N@\B34X78(B ry
 $B<y>uFM5/$N@-<A$K4X$9$k:G?7$NCN<1$rI}9-$/F@$k$K$O8E$9$.$k$,!"(B
@@ -2635,14 +2635,14 @@ Page 77
 $B@bL@J8Cf$GBgJ8;z$G<($5$l$?$b$N(B83$B$O!"$3$NMQ8l@bL@$G@bL@$5$l$F$$$k$3$H$r<($9!#(B
 
 $B%"%/%F%#%V>uBV!J(BActive State$B!K(B
-$B%U%#!<%I!&%U%)%o!<%I!J(BFeed-Forward$B!KF~NO$K$h$C$F%;%k!J(BCells$B!K$,%"%/%F%#%V$K$J$C$?>uBV(B 
+$B%U%#!<%I!&%U%)%o!<%I!J(BFeed-Forward$B!KF~NO$K$h$C$F%;%k!J(BCells$B!K$,%"%/%F%#%V$K$J$C$?>uBV(B
 $B%\%H%`%"%C%W!J(BBottom-Up$B!K(B84
 $B%U%#!<%I!&%U%)%o!<%I!J(BFeed-Forward$B!K$HF15A8l(B
 $B%;%k!J(BCells$B!K(B
 HTM$B$K$*$$$F!"%K%e!<%m%s!J(BNeuron$B!K$KBP1~$9$k$b$N!#(B
 $B%;%k!J(BCells$B!K$O(BHTM$B$N%j!<%8%g%s$K$*$$$F%+%i%`$r9=@.$9$k!#(B
 $BF1;~H/@8%"%/%F%#%S%F%#!J(BCoincident Activity$B!K(B
-$BF1;~$K(B2$B8DKt$O$=$l0J>e$N%;%k$,%"%/%F%#%V$K$J$k$3$H(B 
+$BF1;~$K(B2$B8DKt$O$=$l0J>e$N%;%k$,%"%/%F%#%V$K$J$k$3$H(B
 $B%+%i%`!J(BColumn$B!K(B
 $B#18DKt$O$=$l0J>e$N%;%k$N%0%k!<%W$G!"(BHTM$B%j!<%8%g%s$NCf$G(B1$BC10L$H$7$F5!G=$9$k$b$N!#(B
 $B%+%i%`Cf$N%;%k$O!"F1$8%U%#!<%I!&%U%)%o!<%IF~NO$N0[$J$kJ8L.$rI=8=$9$k!#(B
@@ -2674,7 +2674,7 @@ Page 78
 $B%U%#!<%I!&%U%)%o!<%I(B
 $B!J(BFeed-Forward$B!K(B
 $B3,AX9=B$!J(BHierarchy$B!K$NCf$G!"F~NO$,Dc$$%l%Y%k!J(BLevel$B!K$+$i9b$$%l%Y%k!J(BLevel$B!K$K8~$+$C$F(B
-$B0\F0$9$k$3$H!J$7$P$7$P!"(BBottom-Up$B$H8F$V!K(B 
+$B0\F0$9$k$3$H!J$7$P$7$P!"(BBottom-Up$B$H8F$V!K(B
 $B%U%#!<%I%P%C%/(B
 $B!J(BFeedback$B!K(B
 $B3,AX9=B$!J(BHierarchy$B!K$NCf$G!"9b$$%l%Y%k!J(BLevel$B!K$+$iDc$$%l%Y%k!J(BLevel$B!K$K8~$+$C$F0\F0(B
@@ -2690,7 +2690,8 @@ HTM
 $B!J(BHierarchy$B!K(B
 $BMWAG4V$N@\B3$,%U%#!<%I!&%U%)%o!<%I!J(BFeed-Forward$B!K$J$$$7(B
 $B%U%#!<%I%P%C%/!J(BFeedback$B!K$K$h$C$F%f%K!<%/$K<1JL$5$l$k%M%C%H%o!<%/(B 
-HTM$BBgG>Hi<A@-3X=,%"%k%4%j%:%`!J(BHTM Cortical Learning Algorithms$B!K(B
+HTM$BBgG>Hi<A@-3X=,%"%k%4%j%:%`(B
+$B!J(BHTM Cortical Learning Algorithms$B!K(B
 $B6u4V%W!<%j%s%0!J(BSpatial Pooling$B!K!";~4V%W!<%j%s%0!J(BTemporal Pooling$B!K!"(B
 $B3X=,$HK:5Q$r9T$&4X?t0l<0!#(BHTM$B%j!<%8%g%s!J(BHTM Region$B!K$r9=@.$9$k!#(B
 $B$^$?$NL>$r(BHTM$B3X=,%"%k%4%j%:%`!J(BHTM Learning Algorithms$B!K$H8@$&!#(B
@@ -2714,10 +2715,10 @@ Page 79
 
 $B?dO@(B
 $B!J(BInference$B!K(B
-$B6u4VE*$J$$$7;~4VE*F~NO%Q%?!<%s$,!"0JA0$K3X=,$7$?%Q%?!<%s$H;w$F$$$k$HG'<1$9$k$3$H(B 
+$B6u4VE*$J$$$7;~4VE*F~NO%Q%?!<%s$,!"0JA0$K3X=,$7$?%Q%?!<%s$H;w$F$$$k$HG'<1$9$k$3$H(B
 $BM^@)H>7B(B
 $B!J(BInhibitionRadius$B!K(B
-$B%+%i%`!J(BColumn$B!K$N<~0O$NNN0h$G!"$=$NHO0O$G%"%/%F%#%V$J%+%i%`$,M^@)$r$9$kHO0O$rDj5A$9$k(B 
+$B%+%i%`!J(BColumn$B!K$N<~0O$NNN0h$G!"$=$NHO0O$G%"%/%F%#%V$J%+%i%`$,M^@)$r$9$kHO0O$rDj5A$9$k(B
 $B2#J}8~$N@\B3(B
 $B!J(BLateral Connections$B!K(B
 $BF1$8%j!<%8%g%sFb$G$N%;%k!J(BCells$B!K4V$N@\B34X78(B
@@ -2728,14 +2729,14 @@ Page 79
 $B!J(BNeuron$B!K(B
 $BG>Fb$G>pJs=hM}$r9T$&%;%k!J(BCells$B!K!#(B
 $BK\=q$G$O!"FC$K@8J*3XE*$J0UL#$G%;%k$r<($9$H$-$K%K%e!<%m%s$H$$$&MQ8l$rMQ$$!"(B
-$BC1$K%;%k$HI=5-$7$?$H$-$O(BHTM$B$N7W;;C10L$r0UL#$9$k!#(B 
+$BC1$K%;%k$HI=5-$7$?$H$-$O(BHTM$B$N7W;;C10L$r0UL#$9$k!#(B
 $B1JB3CM(B
 $B!J(BPermanence$B!K(B
 $B%7%J%W%98uJd!J(BPotential Synapse$B!K$N@\B3>uBV$rI=$9%9%+%i!<CM!#(B
 $B1JB3CM$,$7$-$$CM$r2<2s$k$H$-%7%J%W%9$O7A@.$5$l$F$$$J$$$3$H$rI=$9!#(B
 $B1JB3CM$,$7$-$$CM$rD6$($F$$$?$i!"$=$N%7%J%W%9$OM-8z$G$"$k!#(B
 HTM$B%j!<%8%g%s!J(BHTM Region$B!K$N3X=,$O(B
-$B%7%J%W%98uJd!J(BPotential Synapse$B!K$N1JB3CM$rJQ99$9$k$3$H$GC#@.$5$l$k!#(B 
+$B%7%J%W%98uJd!J(BPotential Synapse$B!K$N1JB3CM$rJQ99$9$k$3$H$GC#@.$5$l$k!#(B
 $B%7%J%W%98uJd(B
 $B!J(BPotential Synapse$B!K(B
 $B$"$k<y>uFM5/%;%0%a%s%H!J(BDendrite Segment$B!K$G%7%J%W%9$r7A@.$9$k2DG=@-$,$"$k%;%k!J(BCells$B!K(B
@@ -2754,11 +2755,11 @@ HTM$B%j!<%8%g%s!J(BHTM Region$B!K$X$NF~NO$,%S%C%H$N(B2D$BG[Ns$G9=@.$5$l$F$$
 $B<uMFLn$OF~NO6u4VFb$N$"$kH>7BHO0O$GI=8=$9$k$3$H$,$G$-$k!#(B
 $B%;%s%5!<(B
 $B!J(BSensor$B!K(B
- HTM$B%M%C%H%o!<%/!J(BHTM Network$B!K$X$NF~NO8;(B
+HTM$B%M%C%H%o!<%/!J(BHTM Network$B!K$X$NF~NO8;(B
 $BABJ,;6I=8=(B
 $B!J(BSparse Distributed Representation$B!K(B
 $BB?$/$N%S%C%H$G9=@.$5$l!"$=$N$&$A$N$o$:$+$J%Q!<%;%s%F!<%8$@$1$,%"%/%F%#%V$G$"$j!"(B
-$BC10l$N%S%C%H$@$1$G$O0UL#$rI=8=$9$k$K$OIT==J,$G$"$k$h$&$JI=8=!#(B 
+$BC10l$N%S%C%H$@$1$G$O0UL#$rI=8=$9$k$K$OIT==J,$G$"$k$h$&$JI=8=!#(B
 
 
 
@@ -2771,10 +2772,10 @@ Page 80
 $B%5%V%5%s%W%j%s%0(B
 $B!J(BSub-Sampling$B!K(B
 $BBg$-$J%Q%?!<%s$N$&$A$N$[$s$N$o$:$+$J%"%/%F%#%V%S%C%H$r%^%C%A%s%0$9$k$@$1$G!"(B
-$BBg$-$JJ,;6%Q%?!<%s$rG'<1$9$k$3$H(B 
+$BBg$-$JJ,;6%Q%?!<%s$rG'<1$9$k$3$H(B
 $B%7%J%W%9(B
 $B!J(BSynapse$B!K(B
-$B3X=,$K$h$C$F7A@.$5$l$k%;%k!J(BCells$B!K4V$N@\B3(B 
+$B3X=,$K$h$C$F7A@.$5$l$k%;%k!J(BCells$B!K4V$N@\B3(B
 $B;~4V%W!<%j%s%0(B
 $B!J(BTemporal Pooling$B!K(B
 $BF~NO%Q%?!<%s$N%7!<%1%s%9$NI=8=$r7W;;$9$k=hM}!#7k2L$NI=8=$OF~NO$h$j$b0BDj$7$?$b$N$K$J$k!#(B
