@@ -196,7 +196,7 @@ ry $B#1>O$O(B HTM ry $B3,AX9=B$(B ry $B!"ABJ,;6I=8=(B1$B!";~4VE*$JJQ2=$K4
 $BM}O@E*4pAC$O(B Pentti Kanerva $BCx(B Sparse Distributed Memory $B$K>\$7$$!#(B
 Kanerva $B;a$O(B Jeff Hawkins $B;a$,@_N)$7$?(B Redwood Neuroscience Institute
 $B!J8=:_$O(B Redwood Center for Theoretical Neuroscience)$B$N8&5f0w!#(B
-2 HTM cortical learning algorithms 
+2 HTM cortical learning algorithms
 
 
 
@@ -231,7 +231,7 @@ Numenta, Inc. (www.numenta.com)$B$O(B HTM $B5;=Q$r>&6HE*$J$$$73X=QE*MxMQ$N$?$
 Numenta $B<R$N%=%U%H%&%'%"$dCNE*=jM-8"$r8&5fL\E*$G<+M3$KMxMQ(B
 
 3 $BK.Lu(B $B!V9M$($kG>(B $B9M$($k%3%s%T%e!<%?!<!W%i%s%@%`%O%&%99VCL<R(B
-4 HTM Cortical Learning Algorithms 
+4 HTM Cortical Learning Algorithms
 
 
 
@@ -254,18 +254,18 @@ Numenta $B<R$O%+%j%U%)%k%K%"=#(B Redwood City $B$K5rE@$r$*$-!"<+8J;qK\(B ry
 
 0.1 	2010/11/9
 1. $B=xJ8!"(B1,2,3,4 $B>O!"MQ8l=8$N=iHG(B
-Jeff Hawkins, Subutai Ahmad, Donna Dubinsky 
+Jeff Hawkins, Subutai Ahmad, Donna Dubinsky
 
 0.1.1 	2010/11/23
 1. $BBh(B 1 $B>O$N%j!<%8%g%s$N@a$G!"%l%Y%k!"%+%i%`!"AX$J$I$NMQ8l$rL@3N2=(B ry
 2. $BIUO?#A$N=iHG(B
-Jeff Hawkins 
+Jeff Hawkins
 
 0.2	2010/12/10
 1. $BBh#2>O!'(B $BL@3N2=$N$?$a=$@5(B
 2. $BBh#4>O!'9THV9f$r=$@5!"(B37$B9T$H(B39$B9T$N%3!<%I$r=$@5(B
 3. $BIUO?#B$N=iHG(B
-Hawkins Ahmad Hawkins 
+Hawkins Ahmad Hawkins
 
 
 
@@ -298,7 +298,7 @@ HTM $B$O4pK\E*$K%a%b%j%Y!<%9(B ry $B!#(BHTM $B%M%C%H%o!<%/$O;~4VE*$KJQ2=$9$
 7 layer
 8 region
 9 hierarchy
-10 sequence$B!#O"B3$7$F5/$3$k;vJA!"$J$$$7$=$N=g=x$r0UL#$9$k!#(B 
+10 sequence$B!#O"B3$7$F5/$3$k;vJA!"$J$$$7$=$N=g=x$r0UL#$9$k!#(B
 
 
 
@@ -331,7 +331,7 @@ ry $B!#%j!<%8%g%s$O(B HTM$B$K$*$1$k5-21$HM=B,$N<gMW9=@.MWAG(B ry $B!#(B
 $B!"FC$K3,AX9=B$$NCf$G$N%j!<%8%g%s$NLr3d$r;X$9$H$-$K!V%l%Y%k!W$NMQ8l$rMQ$$$k!K(B
 
 11 convergence
-12 divergence 
+12 divergence
 
 
 
@@ -388,7 +388,7 @@ HTM $B%M%C%H%o!<%/$KN.$79~(B ry $B!#$3$NLdBj$G$O6u4VE*3,AX9=B$$O$o$:$+$7$+G'$
 $B0lHLE*$J%f!<%6$N%Q%?!<%s$rG'<1$9$k$3$H$G!"%f!<%6$,<!$K$I$3$r%/%j%C%/$9$k$+$rM=B,(B ry
 
 13 edge$B!#$X$j!&$U$A!#(B
-14 inference 
+14 inference
 
 
 
@@ -419,7 +419,7 @@ HTM $B%j!<%8%g%s$N%;%k$O$*$*$^$+$K8@$($P?7Hi<A$N%j!<(B ry $BBh(B 3 $BAX$K$"
 $B%;%k$OFs<!85$N%+%i%`>u$KG[CV$5$l$k!#$3$N?^$G$O!"(B1 $B%+%i%`Ev$?$j(B 4 $B$D$N%;(B
 $B%k$G9=@.$5$l$k(B HTM $B%j!<%8%g%s$N>.$5$J6h2h$rI=$7$F$$$k!#3F%+%i%`$OF~NO(B
 
-15 region$B!#BN$NIt0L!"6IIt$J$I$N0U!#LuJ8$G$OC1FH$N(B region $B$O$=$N$^$^%j!<%8%g%s$H$7$?!#(B 
+15 region$B!#BN$NIt0L!"6IIt$J$I$N0U!#LuJ8$G$OC1FH$N(B region $B$O$=$N$^$^%j!<%8%g%s$H$7$?!#(B
 
 
 
@@ -519,7 +519,7 @@ HTM $B$N(B 4 $B$D$N4pK\E*$J5!G=$KLa$m$&!'3X=,!&?dO@!&M=B,!&9TF0(B16$B$G$"$k
 $B$7$+$7$J$,$i9TF0$O0[$J$k!#@8J*3X$K$h$l$P!"B?$/$N?7Hi<A$N%j!<%8%g%s$,9TF0$r7A@.(B ry
 $B$7$+$72f!9$O!"B?$/$N6=L#?<$$%"%W%j%1!<%7%g%s$K$*$$$F$3$l$O=EMW$G$O$J$$$H?.(B
 
-16 behavior 
+16 behavior
 
 
 
@@ -602,7 +602,7 @@ HTM $B%j!<%8%g%s$bG>$HF1$8LdBj$KD>LL$9$k!'F~NO$O7h$7$F@53N$K7+$jJV$5$l$J$$!#(B
 $B<h$j07$o$J$1$l$P$J$i$J$$!#(BHTM $B%j!<%8%g%s$,?7$7$$F~NO$KBP=h$9$k0l$D$NJ}K!$O!"(B
 $BABJ,;6I=8=$rMxMQ$9$k$3$H$K$h$k!#ABJ,;6I=8=$N80$H$J$kFCD'$O!"%Q%?!<%s$N0lIt(B
 
-17 cochleae$B!#$+$.$e$&$+$/!#<*$N1|$K$"$k124,$->u$N463P4o41!#(B 
+17 cochleae$B!#$+$.$e$&$+$/!#<*$N1|$K$"$k124,$->u$N463P4o41!#(B
 
 
 
@@ -639,7 +639,7 @@ HTM $B%j!<%8%g%s$OI,MW$J$@$1$N$h$jB?$/$ND>A0$NJ8L.$rMQ$$$F3X=,$7!"(B
 18 variable order memory
 19 Gettysburg Address$B!#!V?ML1$N?ML1$K$h$k?ML1$N$?$a$N@/<#!W$N%U%l!<%:$,M-L>!#(B
 $B!I(BFour score and seven years ago our fathers brought forth on this continent, a new nation,
-conceived in Liberty, and dedicated to the proposition that all men are created equal...$B!I(B ($B0J2<N,(B) 
+conceived in Liberty, and dedicated to the proposition that all men are created equal...$B!I(B ($B0J2<N,(B)
 
 
 
@@ -701,7 +701,7 @@ ry HTM $BBgG>Hi<A@-3X=,%"%k%4%j%:%`(B ry $B!"4pK\E*$J%"!<%-%F%/%A%c$O7rA4(B 
 $B%j!<%8%g%s4V$N%U%#!<%I%P%C%/!"FCDj$N%?%$%_%s%0!"%;%s%5F~NO$H9TF0$NE}9g$J$I(B ry
 
 20 behavior
-21 attention 
+21 attention
 
 
 
@@ -732,7 +732,7 @@ ry $B%;%k$O#3$D$N=PNO>uBV(B ry $B!#%U%#!<%I!&%U%)%o!<%IF~NO$K$h$j%"%/%F%#%V$J
 24 potential synapse
 25 dendrite segment
 26 column
-27 a short burst of action potentials in a neuron 
+27 a short burst of action potentials in a neuron
 
 
 
@@ -774,7 +774,7 @@ HTM $B%7%J%W%9$KFsCM$N%&%'%$%H$r3d$jEv$F$F$b2?$i0-1F6A$O$J$$$O$:$G$"$k!#(B
 28 a slower, steady rate of action potentials in a neuron
 29 proximal dendrite segment$B!#<y>uFM5/$N$&$A!"%K%e!<%m%s$NCf?4It$K6a$$ItJ,!#(B
 30 distal dendrite segment$B!#<y>uFM5/$N$&$A!"KvC<$K6a$$ItJ,!#(B
-distal$B$OKv>?!J$^$C$7$g$&!K!&KvC<$N0UL#!#$A$J$_$KKv>??@7P$O(B peripheral nerve $B$H$$$&!#(B 
+distal$B$OKv>?!J$^$C$7$g$&!K!&KvC<$N0UL#!#$A$J$_$KKv>??@7P$O(B peripheral nerve $B$H$$$&!#(B
 
 
 
@@ -887,7 +887,7 @@ HTM $B%j!<%8%g%s$N0lHLE*$J5,B'(B ry $B%+%i%`$,%"%/%F%#%V(B ry
 $B$b$7$=$N%+%i%`Cf$N0l$DKt$O$=$l0J>e$N%;%k$,4{$KM=B,>uBV$G$"$l$P!"(B
 $B$=$l$i$N%;%k$@$1$,%"%/%F%#%V$K$J$k!#$b$7$=$N%+%i%`(B
 
-31 $B!V;d$OM|$r?)$Y$k!W$H!V;d$O(B 8 $B8D$NM|$r;}$C$F$$$k!W(B 
+31 $B!V;d$OM|$r?)$Y$k!W$H!V;d$O(B 8 $B8D$NM|$r;}$C$F$$$k!W(B
 
 
 
@@ -915,7 +915,7 @@ HTM $B%j!<%8%g%s$OF1$8F~NO$NB?$/$N0[$J$kJ8L.$rI=8=(B ry
 ry HTM $B%;%k$O#3$D$N>uBV$r<h$k!#%;%k$,%U%#!<%I!&%U%)%o!<%IF~NO$K$h$C$F%"%/(B ry
 $BC1$K!V%"%/(B ry $B!W$NMQ8l(B ry
 
-32 all-or-nothing 
+32 all-or-nothing
 
 
 
@@ -1013,7 +1013,7 @@ HTM $B$N%7%J%W%9$O(B 0 $BKt$O(B 1 $B$N8z2L$@$1$r;}$D!#B?$/$NB>$N%K%e!<%i%k%
 A, B, C,...$B$N$=$l$>$l$KBP1~$9$kABJ,;6I=8=$O!"(B
 $B%j!<%8%g%sA4BN$N(B 2%$B$N%;%k$NAH$_9g$o$;$GI=$5$l$k!#(B
 34 $B2?$+$rCy$a$3$s$GC_@Q$9$k$H$$$&%K%e%"%s%9$+$i!"(B
-$B;~4V$K4X$9$k>pJs$rC_@Q$9$k$b$N$H$$$&0UL#$H;W$o$l$k!#(B 
+$B;~4V$K4X$9$k>pJs$rC_@Q$9$k$b$N$H$$$&0UL#$H;W$o$l$k!#(B
 
 
 
@@ -1044,7 +1044,7 @@ ry $B!"<y>uFM5/%;%0%a%s%H$O%7%J%W%98uJd$N%j%9%H$r;}$D!#(B
 
 $B3X=,(B
 $B3X=,$G$O<y>uFM5/%;%0%a%s%H>e$N%7%J%W%98uJd$N1JB3CM$rA}2C!&8:>/$5$;$k!#(B
-ry$B1JB3@-$rA}2C!&8:>/$5$;$k$?$a$KMQ$$$i$l$k5,B'$O!V%X%V$N3X=,5,B'!W(B35$B$K;w$F$$$k!#(B
+ry $B1JB3@-$rA}2C!&8:>/$5$;$k$?$a$KMQ$$$i$l$k5,B'$O!V%X%V$N3X=,5,B'!W(B35$B$K;w$F$$$k!#(B
 $BNc$($P!"$"$k<y>uFM5/%;%0%a%s%H$,$7$-$$CM0J>e$NF~NO$r<u$1<h$C$?$?$a$K%;%k(B
 $B$,%"%/%F%#%V$K$J$C$?$H$-$O!"$=$N%;%0%a%s%H>e$N%7%J%W%9$N1JB3CM$r=$@5$9$k!#(B
 $B%7%J%W%9$,%"%/%F%#%V$G$"$j!"=>$C$F%;%k$,%"%/%F%#%V$K$J$k$3$H$K9W8%$7$?>l9g!"(B
@@ -1053,7 +1053,7 @@ ry$B1JB3@-$rA}2C!&8:>/$5$;$k$?$a$KMQ$$$i$l$k5,B'$O!V%X%V$N3X=,5,B'!W(B35$B$K;
 35 Hebbian learning rules$B!#!V:YK&(B A $B$N<4:w$,:YK&(B B $B$rH/2P$5$;$k$N$K==J,6a$/$K$"$j!"(B
 $B7+$jJV$7$"$k$$$O@d$(4V$J$/$=$NH/2P$K;22C$9$k$H$-!"(B
 $B$$$/$D$+$N@.D92aDx$"$k$$$OBe<UJQ2=$,0lJ}$"$k$$$ON>J}$N:YK&$K5/$3$j!"(B
-$B:YK&(B B $B$rH/2P$5$;$k:YK&$N(B 1 $B$D$H$7$F:YK&(B A $B$N8zN($,A}2C$9$k!#!W(B 
+$B:YK&(B B $B$rH/2P$5$;$k:YK&$N(B 1 $B$D$H$7$F:YK&(B A $B$N8zN($,A}2C$9$k!#!W(B
 
 
 
@@ -1091,7 +1091,7 @@ HTM $B%j!<%8%g%s$OF~NO$N6&DL$7$?%Q%?!<%s$KBP$9$kI=8=$r3X=,$9$k$?$a$N8GDj?t(B
 
 36 boost$B!#8e2!$7$9$k!"A}6/$9$k$J$I$N0U!#8e=R$N%"%k%4%j%:%`$G(B
 $B%V!<%9%HCM$H$$$&JQ?t$,=P8=$9$k$?$a!"$=$N$^$^%V!<%9%H$HLu$7$?!#(B
-37 receptive field 
+37 receptive field
 
 
 
@@ -1134,7 +1134,7 @@ Page 35
 38 plastic$B!#$+$=$;$$!#J*M}E*$J2DA:@-$H$O8GBN$K30NO$r2C$($FJQ7A$5$;!"(B
 $BNO$r<h$j5n$C$F$b$b$H$KLa$i$J$$@-<A$N$3$H!#(B
 $BG>$N2DA:@-$H$O7P83$K1~$8$F?@7P2sO)$NAH$_49$($d:F9=@.$r9T$&G=NO$N$3$H!#=@Fp@-!"E,1~@-!#(B
-39 $BAF$5(B(sparsity)$B$O%"%/%F%#%V$K$J$k%+%i%`$N3d9g!#%+%i%`$N?t$,A}$($F$bAF$5$O0lDj$H$$$&$3$H!#(B 
+39 $BAF$5(B(sparsity)$B$O%"%/%F%#%V$K$J$k%+%i%`$N3d9g!#%+%i%`$N?t$,A}$($F$bAF$5$O0lDj$H$$$&$3$H!#(B
 
 
 
@@ -1178,7 +1178,7 @@ ry
 $B;~4V%W!<%j%s%0$N35G0(B
 
 
-40 boosting factor 
+40 boosting factor
 
 
 
@@ -1308,7 +1308,7 @@ ry
 $B!H(Bpredictive state to active state$B!I$N4V0c$$$@$C$?$H$ND{@5$,$"$C$?!#(B
 (2010/12/14 Sabutai: title $B!H(BCortical Algorithms document: praise and suggestions$B!I(B)
 42 $B!H(Bfirst order$B!I(B $B$H(B $B!H(Bvariable order$B!I!#A0<T$O0l$D$@$1$ND9$5$N%7!<%1%s%9$HM=B,!"(B
-$B8e<T$OG$0U$ND9$5$N%7!<%1%s%9$HM=B,!#(B 
+$B8e<T$OG$0U$ND9$5$N%7!<%1%s%9$HM=B,!#(B
 
 
 
@@ -1398,7 +1398,7 @@ Page 41
 44 complex cell
 45 directionally-tuned complex cell
 46 attention
-47 motor behavior 
+47 motor behavior
 
 
 
@@ -1452,7 +1452,7 @@ ry $BMM!9$J%G!<%?9=B$$dJd=u4X?t$OK\>O$N:G8e$K<($9!#(B
 $B1JB3CM$O$3$NCf?4$K8~$+$C$F%P%$%"%9$r2C$($i$l$k!#!JCf?4IU6a$G$O$h$j9b$$CM$rM?$($i$l$k!K(B
 
 48 spatial pooler function
-49 online$B!#?dO@$N7W;;$H3X=,$N7W;;$rJ,N%$;$:$K!"F1;~$K9T$&$H$$$&$3$H!#(B 
+49 online$B!#?dO@$N7W;;$H3X=,$N7W;;$rJ,N%$;$:$K!"F1;~$K9T$&$H$$$&$3$H!#(B
 
 
 
@@ -1534,7 +1534,7 @@ Page 45
 38. inhibitionRadius = averageReceptiveFieldSize() 
 39. 
 
-50 $B%*!<%P%i%C%WCM$,>.$5$$(B 
+50 $B%*!<%P%i%C%WCM$,>.$5$$(B
 
 
 
@@ -1577,7 +1577,7 @@ permanenceDec
 $B8:>/CM(B
 
 51 $B4,Kv$NMQ8l$N@bL@;2>H(B
-52 $B$"$k%+%i%`$X$N%"%/%F%#%V$JF~NO$,$3$N?t0J>e$G$"$l$P!"M^@)%9%F%C%W$G=hM}BP>]$H$J$k!#(B 
+52 $B$"$k%+%i%`$X$N%"%/%F%#%V$JF~NO$,$3$N?t0J>e$G$"$l$P!"M^@)%9%F%C%W$G=hM}BP>]$H$J$k!#(B
 
 
 
@@ -1647,7 +1647,7 @@ ry $B3F%;%k$N%"%/%F%#%V>uBV$r7W;;$9$k!#>!<T$H$J$C$?3F%+%i%`$K$D$$$F!"(B
 $B%U%#!<%I!&%U%)%o!<%IF~NO$,M=B,$5$l$J$+$C$?!J$I$N%;%k$b(B predictiveState $B$,%*%s$K(B
 $B$J$i$J$+$C$?!K$H$-!"$=$N%+%i%`$N$9$Y$F$N%;%k$r%"%/%F%#%V$K$9$k!J(B11-13 $B9TL\!K!#(B
 
-53 temporal pooler function 
+53 temporal pooler function
 
 
 
@@ -1689,7 +1689,7 @@ ry $B>!<T$H$J$C$?%+%i%`Cf$N3F%;%k$N(B activeState $B$r7W;;$9$k!#(B
 
 54 lcChosen $B$O3X=,%;%k$,A*Br$5$l$?$3$H!J(Blearn cell chosen$B!K$rI=$7!"(B
 (c, i) $B$,A*Br$5$l$?3X=,%;%k!"$=$7$F(B learnState(c, i, t) =1 $B$K@_Dj$5$l$k$3$H$G(B
-$B$3$N%;%k$,3X=,%;%k$H$7$FA*Br$5$l$?$3$H$r5-21$9$k!#(B 
+$B$3$N%;%k$,3X=,%;%k$H$7$FA*Br$5$l$?$3$H$r5-21$9$k!#(B
 
 
 
@@ -1728,7 +1728,7 @@ Page 50
 41. 			segmentUpdateList.add(sUpdate)
 
 55 buPredicted $B$O%U%#!<%I!&%U%)%o!<%IF~NO$,M=B,$5$l$?$3$H!J(B bottom-up predicted$B!K$rI=$9!#(B
-$B!J(Bbottom-up $B$O(B feed-forward $B$HF15A$G!"!V%U%#!<%I!&%U%)%o!<%I!W$HLu$7$F$$$k!K(B 
+$B!J(Bbottom-up $B$O(B feed-forward $B$HF15A$G!"!V%U%#!<%I!&%U%)%o!<%I!W$HLu$7$F$$$k!K(B
 
 
 
@@ -1766,7 +1766,7 @@ b) $B$3$N%"%/%F%#%Y!<%7%g%s(B57$B$rM=B,$7F@$?%;%0%a%s%H(B
 
 56 reinforcement$B!#%U%'!<%:(B 3 $B$G6/2=3X=,$r$9$k=hM}BP>]$r(B segmentUpdateList $B$K5-21$9$k!#(B
 57 44 $B9TL\$N(B if $BJ8$N>r7o$,@.N)$7$?$3$H(B
-58 $B5U$K<e$a$kJ}8~$K3X=,$9$k(B 
+58 $B5U$K<e$a$kJ}8~$K3X=,$9$k(B
 
 
 
@@ -1946,7 +1946,7 @@ HTM $B%;%k$K4^$^$l$k$9$Y$F$NMWAG$O(B HTM $B%j!<%8%g%s$N1i;;$KI,MW$G$"$k!#(B
 $B7R$0C1$J$kF3@~$G$O$J$$$HJ,$+$C$?$3$H$G(B
 
 59 cell $B$rK\=q$G$O0l4S$7$F!V%;%k!W$HLu$7$?$,!"@8J*$N:YK&$r0UL#$9$k!#(B
-60 cell body$B!#%K%e!<%m%sCf1{$NKD$i$s$@ItJ,!#(B 
+60 cell body$B!#%K%e!<%m%sCf1{$NKD$i$s$@ItJ,!#(B
 
 
 
@@ -1990,7 +1990,7 @@ HTM $BBgG>Hi<A@-3X=,%"%k%4%j%:%`$O$3$NHs@~7A$NFC@-$rMxMQ$7$F$$$k!#(B
 $B%K%e!<%m%s$,;I7c$r<u$1$?$?$a$K$3$NEE0L$,>e$,$k$3$H$rC&J,6K$H$$$&!#(B
 $BC&J,6K$K$h$jEE0L$,$"$k$7$-$$CM$rD6$($k$H%K%e!<%m%s$,H/2P$9$k!#(B
 64 action potential$B!#$J$s$i$+$N;I7c$K1~$8$F:YK&Kl$K@8$8$k0l2a@-$NKlEE0L$NJQ2=!#(B
-65 distal dendrite 
+65 distal dendrite
 
 
 
@@ -2035,7 +2035,7 @@ Page 59
 $B%7%J%W%9!V8uJd!W$N35G0(B ry $B!"3X=,$O<g$K%7%J%W%98uJd$+$iM-8z$J%7%J%W%9$,7A@.(B ry
 
 66 apical dendrite$B!#(Bapical $B$O!VD:E@$N!$D:>e$N!W$H$$$&0UL#!#(B
-67 neurotransmitter 
+67 neurotransmitter
 
 
 
@@ -2073,7 +2073,7 @@ ry $B!"2f!9$N%b%G%k$K$H$C$FI,MW(B ry
 $B$=$NB?$/$N=hM}G=NO$r3hMQ$7$F$$$J$$!#<BJ*$N%K%e!<%m%s$,G>Fb$G$I$N$h$&$JA4BN8z2L$r(B
 $B@8$_=P$9$+$rM}2r$7%b%G%k2=(B ry $B$b$C$H@:9*$J%K%e!<%m%s%b%G%k$,I,MW(B ry
 
-68 spike$B!#C;;~4V$N@m$C$?GH7A$N$3$H!#(Bpulse $B$H$O>/$70c$&$,!"%Q%k%9$HLu$7$?!#(B 
+68 spike$B!#C;;~4V$N@m$C$?GH7A$N$3$H!#(Bpulse $B$H$O>/$70c$&$,!"%Q%k%9$HLu$7$?!#(B
 
 
 
@@ -2249,7 +2249,7 @@ Page 65
 
 $B?7Hi<AA4BN$rDL$8$F3F%j!<%8%g%s$K$O4o4186M}(B69$B$,$$$/$D$+8+$i$l$k!#(B
 
-69 organizing principles$B!#@8BN4o41$NF/$-$N86M}E*$7$/$_!#(B 
+69 organizing principles$B!#@8BN4o41$NF/$-$N86M}E*$7$/$_!#(B
 
 
 
@@ -2270,7 +2270,7 @@ Page 66
 $BB?$/$N<4:w$O%K%e!<%m%s$NK\BN$+$i=P$?D>8e(B
 
 70 myelination$B!#$:$$$7$g$&$1$$$;$$!#%_%(%j%s2=!#(B
-71 sheath$B!#$5$d!#(B 
+71 sheath$B!#$5$d!#(B
 
 
 
@@ -2312,7 +2312,7 @@ Page 67
 $BBh(B 4 $BAX$O463P4o41$+$i1s$$%j!<%8%g%s$G$O3,AX9=B$$+$i>C$($FL5$/$J$C$F$$$k!#(B
 
 72 apical dendrite
-73 columnar organization$B!#0lHL$K$OCl>u9=B$!#B>$HE}0l$9$k$?$a%+%i%`9=B$$H$7$?!#(B 
+73 columnar organization$B!#0lHL$K$OCl>u9=B$!#B>$HE}0l$9$k$?$a%+%i%`9=B$$H$7$?!#(B
 
 
 
@@ -2339,7 +2339,7 @@ Page 68
 V1 $B$K$O$$$/$D$+$NB>$N%+%i%`7?$NFCD'$,$"$j!"$=$N$&$A$N(B 2 $B$D$,?^<($5$l$F$$$k!#(B
 $B:8L\$H1&L\$N>pJs$N;w$?AH$_9g$o$;$K%;%k$,H?1~$9$k!V4c5eM%0L@-%+%i%`!W(B74$B$,$"$k!#(B
 
-74 ocular dominance column$B!#JRJ}$N4c$+$i$NF~NO$K6/$/H?1~$9$k%;%k$N=8$^$j!#(B 
+74 ocular dominance column$B!#JRJ}$N4c$+$i$NF~NO$K6/$/H?1~$9$k%;%k$N=8$^$j!#(B
 
 
 
@@ -2369,7 +2369,7 @@ Page 69
 $B1&B&$O%_%K%+%i%`$N35G0?^$G$"$k!J(BPeters $B$H(B Yilmez $B$K$h$k!K!#(B
 $B<B:]$K$O$3$l$h$j$:$C$H:Y$$!#%+%i%`$NCf$N3FAX$KJ#(B
 
-75 blob$B!#>.2t!">.5eBN!#(B 
+75 blob$B!#>.2t!">.5eBN!#(B
 
 
 
@@ -2481,7 +2481,7 @@ Page 72
 
 76 pathway$B!#DL$jF;!#(B
 77 sub-cortical area$B!#BgG>Hi<A$N2<$N?@7PCf?u!#(B
-78 thalamus$B!#$7$7$g$&!#(B 
+78 thalamus$B!#$7$7$g$&!#(B
 
 
 
@@ -2524,7 +2524,7 @@ Numenta $B$G$O!";k3P$K$D$$$F$3$N%a%+%K%:%`(B ry $B<B83$r9T$$!"(B
 
 79 spatial transformation
 80 invariant representation
-81 directionally-tuned complex cell 
+81 directionally-tuned complex cell
 
 
 
@@ -2572,7 +2572,7 @@ Page 74
 $BB>$N$9$Y$F$NAX$HF1MM$KBh(B 2 $BAX$HBh(B 6 $BAX$O$?$/$5$s$N?eJ?J}8~$N@\B3%Q%?!<%s$r;}$A!"(B
 $B%+%i%`C10L$GH?1~$9$kFCD'$,$"$k$3$H(B
 
-82 covert attention 
+82 covert attention
 
 
 
@@ -2658,7 +2658,7 @@ HTM$B$K$OFs$D$N0[$J$k%?%$%W$N<y>uFM5/%;%0%a%s%H$,$"$k!#(B
 
 83 $BMQ8l@bL@$G$O!"Nc$($P(B Cell $B$N>l9g!V%;%k!J(BCell$B!K!W$N$h$&$K<($7$?!#(B
 84 $B86J8$G$O(B Bottom-Up $B$H(B Feed-Forward $B$N(B 2 $B<oN`$NMQ8l$,8=$l$k$,!"(B
-$BF1MM$N0UL#$G$"$k$H$5$l$F$$$k$?$a!">o$K!V%U%#!<%I!&%U%)%o!<%I!W$HLu$7$?!#(B 
+$BF1MM$N0UL#$G$"$k$H$5$l$F$$$k$?$a!">o$K!V%U%#!<%I!&%U%)%o!<%I!W$HLu$7$?!#(B
 
 
 
@@ -2706,7 +2706,7 @@ HTM$B%j!<%8%g%s!J(BHTM Region$B!K$O!"%+%i%`$NCf$KG[CV$5$l$?9bEY$KAj8_@\B3$5$l
 $B3,AX9=B$$NCf$N0LCV$H$$$&J8L.$G8F$P$l$k$H$-!"%j!<%8%g%s$O%l%Y%k$H8F$P$l$k$3$H$,$"$k!#(B
 
 85 fan-out$B!#9-$,$j6q9g(B
-86 radius 
+86 radius
 
 
 
