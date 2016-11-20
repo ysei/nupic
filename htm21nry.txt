@@ -1464,16 +1464,16 @@ ry $B%*!<%P%i%C%W$O!"%"%/%F%#%V$JF~NO$H@\B3$5$l$?%7%J%W%9$N?t$r?t$(!"(B
 $B$=$l$K%V!<%9%HCM$r3]$1$?$b$N$G$"$k!#(B
 $B$b$7$3$NCM$,(BminOverlap $B$r2<2s$C$F$$$k>l9g!"%*!<%P%i%C%W$O(B 0 $B$H$9$k!#(B
 
-1. for c in columns 
+1. for c in columns
 2. 
-3. 	overlap(c) = 0 
-4. 	for s in connectedSynapses(c) 
-5.	 	overlap(c) = overlap(c) + input(t, s.sourceInput) 
+3. 	overlap(c) = 0
+4. 	for s in connectedSynapses(c)
+5.	 	overlap(c) = overlap(c) + input(t, s.sourceInput)
 6. 
 7. 	if overlap(c) < minOverlap then
-8. 		overlap(c) = 0 
+8. 		overlap(c) = 0
 9. 	else
-10. 		overlap(c) = overlap(c) * boost(c) 
+10. 		overlap(c) = overlap(c) * boost(c)
 
 $B%U%'!<%:(B 2: $BM^@)(B
 ry $BM^@)$N8e$K>!<T$H$J$C$?%+%i%`$r7W;;$9$k!#(B
@@ -1481,12 +1481,12 @@ desiredLocalActivity $B$O>!<T$H$J$k%+%i%`$N?t$r@)8f$9$k%Q%i%a!<%?$G$"$k!#Nc$($P
 desiredLocalActivity $B$r(B 10 $B$H$9$k$H!"M^@)H>7B$NHO0OFb$K$*$$$F%+%i%`$N%*!<%P%i%C%WCM(B
 $B$,9b$$=g$K(B 10 $B0L0JFb$N%+%i%`$,>!<T$H$J$k!#(B
 
-11. for c in columns 
+11. for c in columns
 12. 
-13. 	minLocalActivity = kthScore(neighbors(c), desiredLocalActivity) 
+13. 	minLocalActivity = kthScore(neighbors(c), desiredLocalActivity)
 14. 
 15. 	if overlap(c) > 0 and overlap(c) minLocalActivity then
-16. 		activeColumns(t).append(c) 
+16. 		activeColumns(t).append(c)
 17. 
 
 $B%U%'!<%:(B 3: $B3X=,(B
@@ -1511,27 +1511,27 @@ Page 45
 
 $B%U%'!<%:(B 3 $B$N:G8e$K!"M^@)H>7B$r:F7W;;$9$k!J(B38 $B9TL\!K!#(B
 
-18. for c in activeColumns(t) 
+18. for c in activeColumns(t)
 19. 
-20. 	for s in potentialSynapses(c) 
+20. 	for s in potentialSynapses(c)
 21. 		if active(s) then
-22. 			s.permanence += permanenceInc 
-23. 			s.permanence = min(1.0, s.permanence) 
+22. 			s.permanence += permanenceInc
+23. 			s.permanence = min(1.0, s.permanence)
 24. 		else
-25. 			s.permanence -= permanenceDec 
-26. 			s.permanence = max(0.0, s.permanence) 
+25. 			s.permanence -= permanenceDec
+26. 			s.permanence = max(0.0, s.permanence)
 27. 
-28. for c in columns: 
+28. for c in columns:
 29. 
-30. 	minDutyCycle(c) = 0.01 * maxDutyCycle(neighbors(c)) 
-31. 	activeDutyCycle(c) = updateActiveDutyCycle(c) 
-32. 	boost(c) = boostFunction(activeDutyCycle(c), minDutyCycle(c)) 
+30. 	minDutyCycle(c) = 0.01 * maxDutyCycle(neighbors(c))
+31. 	activeDutyCycle(c) = updateActiveDutyCycle(c)
+32. 	boost(c) = boostFunction(activeDutyCycle(c), minDutyCycle(c))
 33. 
-34. 	overlapDutyCycle(c) = updateOverlapDutyCycle(c) 
+34. 	overlapDutyCycle(c) = updateOverlapDutyCycle(c)
 35. 	if overlapDutyCycle(c) < minDutyCycle(c) then
-36. 		increasePermanences(c, 0.1*connectedPerm) 
+36. 		increasePermanences(c, 0.1*connectedPerm)
 37. 
-38. inhibitionRadius = averageReceptiveFieldSize() 
+38. inhibitionRadius = averageReceptiveFieldSize()
 39. 
 
 50 $B%*!<%P%i%C%WCM$,>.$5$$(B
@@ -1653,18 +1653,18 @@ ry $B3F%;%k$N%"%/%F%#%V>uBV$r7W;;$9$k!#>!<T$H$J$C$?3F%+%i%`$K$D$$$F!"(B
 
 Page 49
 
-1. for c in activeColumns(t) 
+1. for c in activeColumns(t)
 2. 
 3. 	buPredicted = false
-4. 	for i = 0 to cellsPerColumn - 1 
+4. 	for i = 0 to cellsPerColumn - 1
 5. 		if predictiveState(c, i, t-1) == true then
-6. 			s = getActiveSegment(c, i, t-1, activeState) 
+6. 			s = getActiveSegment(c, i, t-1, activeState)
 7. 			if s.sequenceSegment == true then
 8. 				buPredicted = true
-9. 				activeState(c, i, t) = 1 
+9. 				activeState(c, i, t) = 1
 10. 
 11. 		if buPredicted == false then
-12. 			for i = 0 to cellsPerColumn - 1 
+12. 			for i = 0 to cellsPerColumn - 1
 13. 				activeState(c, i, t) = 1
 
 $B%U%'!<%:(B 2
@@ -1673,10 +1673,10 @@ ry $B3F%;%k$NM=B,>uBV$r7W;;$9$k!#(B
 $BB($A!"==J,$J?t$N2#J}8~$N@\B3@h$,!"(B
 $B%U%#!<%I!&%U%)%o!<%IF~NO$K$h$C$F8=:_H/2P$7$F$$$l$P%*%s$K$J$k!#(B
 
-14. for c, i in cells 
-15. 	for s in segments(c, i) 
+14. for c, i in cells
+15. 	for s in segments(c, i)
 16. 		if segmentActive(c, i, s, t) then
-17. 			predictiveState(c, i, t) = 1 
+17. 			predictiveState(c, i, t) = 1
 
 $B;~4V%W!<%j%s%05?;w%3!<%I!'(B $B?dO@$H3X=,$r4^$`%P!<%8%g%s(B
 
@@ -1702,28 +1702,28 @@ Page 50
 $B$5$i$K!"%Y%9%H%^%C%A%;%k$,3X=,%;%k$H$7$FA*Br$5$l!J(B36-41 $B9TL\!K!"(B
 $B?7$7$$%;%0%a%s%H$,$=$N%;%k$KDI2C$5$l$k!#(B
 
-18. for c in activeColumns(t) 
+18. for c in activeColumns(t)
 19. 
 20. 	buPredicted = false
 21. 	lcChosen = false
-22. 	for i = 0 to cellsPerColumn - 1 
+22. 	for i = 0 to cellsPerColumn - 1
 23. 		if predictiveState(c, i, t-1) == true then
-24. 			s = getActiveSegment(c, i, t-1, activeState) 
+24. 			s = getActiveSegment(c, i, t-1, activeState)
 25. 			if s.sequenceSegment == true then
 26. 				buPredicted = true
-27. 				activeState(c, i, t) = 1 
+27. 				activeState(c, i, t) = 1
 28. 				if segmentActive(s, t-1, learnState) then
-29. 					lcChosen = true 
-30. 					learnState(c, i, t) = 1 
+29. 					lcChosen = true
+30. 					learnState(c, i, t) = 1
 31. 
 32. 		if buPredicted == false then
-33. 			for i = 0 to cellsPerColumn - 1 
-34. 				activeState(c, i, t) = 1 
+33. 			for i = 0 to cellsPerColumn - 1
+34. 				activeState(c, i, t) = 1
 35. 
 36. 		if lcChosen == false then
-37. 			I,s = getBestMatchingCell(c, t-1) 
-38. 			learnState(c, i, t) = 1 
-39. 			sUpdate = getSegmentActiveSynapses (c, i, s, t-1, true) 
+37. 			I,s = getBestMatchingCell(c, t-1)
+38. 			learnState(c, i, t) = 1
+39. 			sUpdate = getSegmentActiveSynapses (c, i, s, t-1, true)
 40. 			sUpdate.sequenceSegment = true
 41. 			segmentUpdateList.add(sUpdate)
 
@@ -1744,18 +1744,18 @@ b) $B$3$N%"%/%F%#%Y!<%7%g%s(B57$B$rM=B,$7F@$?%;%0%a%s%H(B
 $B!JB($A!"A02s$N;~9o%9%F%C%W$G%"%/%F%#%S%F%#$K!J<e$$$+$b$7$l$J$$$,!K%^%C%A$7$?%;%0%a%s%H!K(B
 $B$r6/2=$9$k!J(B50-53 $B9TL\!K!#(B
 
-42. for c, i in cells 
-43. 	for s in segments(c, i) 
+42. for c, i in cells
+43. 	for s in segments(c, i)
 44. 		if segmentActive(s, t, activeState) then
-45. 			predictiveState(c, i, t) = 1 
+45. 			predictiveState(c, i, t) = 1
 46. 
 47. 			activeUpdate = getSegmentActiveSynapses(c, i, s, t, false)
-48. 			segmentUpdateList.add(activeUpdate) 
+48. 			segmentUpdateList.add(activeUpdate)
 49. 
-50. 			predSegment = getBestMatchingSegment(c, i, t-1) 
-51. 			predUpdate = getSegmentActiveSynapses( 
-52. 				c, i, predSegment, t-1, true) 
-53. 			segmentUpdateList.add(predUpdate) 
+50. 			predSegment = getBestMatchingSegment(c, i, t-1)
+51. 			predUpdate = getSegmentActiveSynapses(
+52. 				c, i, predSegment, t-1, true)
+53. 			segmentUpdateList.add(predUpdate)
 
 $B%U%'!<%:(B 3
 $BBh(B 3 $B$N!"$=$7$F:G8e$N%U%'!<%:$G$O!"<B:]$K3X=,$r<B;\$9$k!#(B
@@ -1772,13 +1772,13 @@ b) $B$3$N%"%/%F%#%Y!<%7%g%s(B57$B$rM=B,$7F@$?%;%0%a%s%H(B
 
 Page 52
 
-54. for c, i in cells 
+54. for c, i in cells
 55. 	if learnState(s, i, t) == 1 then
-56. 		adaptSegments (segmentUpdateList(c, i), true) 
-57. 		segmentUpdateList(c, i).delete() 
+56. 		adaptSegments (segmentUpdateList(c, i), true)
+57. 		segmentUpdateList(c, i).delete()
 58. 	else if predictiveState(c, i, t) == 0 and predictiveState(c, i, t-1)==1 then
-59. 		adaptSegments (segmentUpdateList(c, i), false) 
-60. 		segmentUpdateList(c, i).delete() 
+59. 		adaptSegments (segmentUpdateList(c, i), false)
+60. 		segmentUpdateList(c, i).delete()
 61. 
 
 $B<BAu$N>\:Y$HMQ8l@bL@(B
